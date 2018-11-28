@@ -1,0 +1,55 @@
+h2 {
+  text-align: center;
+}
+
+.img_holder {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.img_thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.preview {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.close_button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.original_image {
+  display: block;
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1d1d;
+  z-index: -1;
+}
+
+.preview_image {
+  width: 50%;
+}
